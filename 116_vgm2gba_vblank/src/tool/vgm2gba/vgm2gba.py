@@ -147,7 +147,7 @@ class VgmFile:
             # wait: 0x61 nn nn
             if data[p] == 0x61:
                 # GBA side use vblank
-                converted += data[p].to_bytes()
+                converted += data[p].to_bytes(1, byteorder="little")
                 p += 1
                 fputc_cnt += 1
                 # ignore param
@@ -176,7 +176,7 @@ class VgmFile:
             print("Warning: loop offset not found")
 
         # write end of mark
-        converted += data[p].to_bytes()
+        converted += data[p].to_bytes(1, byteorder="little")
         p += 1
 
         # write loop offset
