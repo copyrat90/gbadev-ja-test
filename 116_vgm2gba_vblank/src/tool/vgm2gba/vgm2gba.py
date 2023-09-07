@@ -110,8 +110,10 @@ class VgmFile:
         converted = self.__get_converted_data()
 
         with open(output_path, "w") as file:
-            file.write(f"const unsigned char {c_array_identifier}[] = {{\n")
-            for num in converted:
+            file.write(f"const unsigned char {c_array_identifier}[] = {{")
+            for i, num in enumerate(converted):
+                if i % 16 == 0:
+                    file.write("\n")
                 file.write(f"0x{num:02x},")
             file.write("};\n")
 
