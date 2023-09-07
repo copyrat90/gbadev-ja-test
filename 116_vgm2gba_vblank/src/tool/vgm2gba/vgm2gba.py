@@ -182,7 +182,7 @@ if __name__ == "__main__":
     import argparse
     import sys
 
-    print("vgm2gba - convert hUGETracker")
+    print("vgm2gba - convert hUGETracker VGM")
     print("This program is distributed under the CC0-1.0")
     print()
     print("Original C code  by akkera102")
