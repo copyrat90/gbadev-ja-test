@@ -162,7 +162,7 @@ class VgmFile:
             # wait: 0x61 nn nn
             if 0x61 <= data[p] <= 0x63:
                 # GBA side use vblank
-                converted += (0x61).to_bytes(1, byteorder="little")
+                converted += b"\x61"
                 fputc_cnt += 1
                 # ignore param
                 if data[p] == 0x61:
