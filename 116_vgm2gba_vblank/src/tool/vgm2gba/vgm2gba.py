@@ -38,6 +38,9 @@ class VgmFile:
             elif 0x62 <= data[p] <= 0x63:
                 p += 1
                 continue
+            elif 0x70 <= data[p] <= 0x7F:
+                p += 1
+                continue
 
             # write reg: 0xb3 aa dd
             if data[p] == 0xB3:
@@ -160,7 +163,7 @@ class VgmFile:
                 continue
 
             # wait: 0x61 nn nn
-            if 0x61 <= data[p] <= 0x63:
+            if 0x61 <= data[p] <= 0x63 or 0x70 <= data[p] <= 0x7F:
                 # GBA side use vblank
                 converted += b"\x61"
                 fputc_cnt += 1
