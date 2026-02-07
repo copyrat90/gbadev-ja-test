@@ -1,0 +1,422 @@
+# エンディング
+
+envSave
+clear 7
+strCls
+
+bgmStop
+bgm 23 0
+
+# スローホワイトイン＋タイトル＋アウト
+envFade 8
+effect 34
+set ed00 1
+wait 60
+effect 35
+envFade 1
+wait 600
+
+str 7 3 Ｃａｓｔ
+wait 600
+strCls
+wait 60
+
+# スローブラックイン＋ウルフィ＋アウト（代用）
+envFade 8
+effect 36
+set s003 1
+effect 37
+envFade 1
+
+wait 30
+str 8 1 Ｗｏｌｆｙ
+wait 120
+strCls
+
+set s004 1
+effect 90
+wait 30
+str 4 8 Ｒａｂｂｙ
+wait 120
+strCls
+
+set s005 1
+effect 91
+wait 30
+str 8 1 Ｎｅｅｔｈ
+wait 120
+strCls
+
+set s006 1
+effect 90
+wait 30
+str 4 8 Ｉｒｉａ
+wait 120
+strCls
+
+set s007 1
+effect 91
+wait 30
+str 8 1 Ｌｅｏｎａ
+wait 120
+strCls
+
+set s008 1
+effect 90
+wait 30
+str 4 8 Ｄｏｌａ
+wait 120
+strCls
+
+set s009 1
+effect 91
+wait 30
+str 9 1 Ｂｌｕｅ
+wait 120
+strCls
+
+set s010 1
+effect 90
+wait 30
+str 4 8 Ｋｉｔｅ
+wait 120
+strCls
+
+set s011 1
+effect 91
+wait 30
+str 7 1 Ａｎｇｅｌａ
+wait 120
+strCls
+
+set s012 1
+effect 90
+wait 30
+str 4 8 Ｆａｒ
+wait 120
+strCls
+
+set s013 1
+effect 91
+wait 30
+str 9 1 Ｍｉｒａ
+wait 120
+strCls
+
+set s014 1
+effect 90
+wait 30
+str 4 8 Ｄｅｌｌｉａ
+wait 120
+strCls
+
+set s015 1
+effect 91
+wait 30
+str 9 1 Ｌｕｌｙ
+wait 120
+strCls
+
+set s016 1
+effect 90
+wait 30
+str 4 8 Ｋｙｎｅ
+str 4 9 （Ｄｒ．Ｗａｒｌｌｅｎ）
+wait 120
+strCls
+
+set s017 1
+effect 91
+wait 30
+str 6 0 Ｂｉａｎｃａ
+str 7 1 ａｓ　Ｂｅｅ
+wait 120
+strCls
+
+set s018 1
+effect 90
+wait 30
+str 4 8 Ａｌｉｃｅ
+str 5 9 ａｓ　Ｂｉａｎｃａ
+wait 120
+strCls
+
+set s019 1
+effect 91
+wait 30
+str 5 1 Ｂｉａｔｌｉｔｈ
+wait 120
+strCls
+
+set s020 1
+effect 90
+wait 30
+str 4 8 Ｃａｓｓｙ
+wait 120
+strCls
+
+set s021 1
+effect 91
+wait 30
+str 9 1 Ｅｌｚａ
+wait 120
+strCls
+
+set s022 1
+effect 90
+wait 30
+str 4 8 Ｔｉｔｙ
+wait 120
+strCls
+
+set s023 1
+effect 91
+wait 30
+str 5 1 Ｒｏｓｅｍａｒｙ
+wait 120
+strCls
+
+set s024 1
+effect 90
+wait 30
+str 4 8 Ｍｉｎａ
+wait 120
+strCls
+
+set s025 1
+effect 91
+wait 30
+str 6 1 Ｒｅｊｉｅｎａ
+wait 120
+strCls
+
+set s026 1
+effect 90
+wait 30
+str 4 8 Ｌｉｌｙ
+wait 120
+strCls
+
+set s027 1
+effect 91
+wait 30
+str 8 1 Ｄｉａｎａ
+wait 120
+strCls
+
+
+# スローフェードイン＋地球儀＋アウト
+envFade 8
+effect 36
+set bg33 3
+effect 37
+envFade 1
+
+wait 60
+set s02 3
+effect 60
+wait 60
+
+fontCol 3
+str 4 4 －ＣＡＮＡＡＮ－
+str 4 5 ＡＬＬ　ＳＴＡＦＦ
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 6 4 シナリオ
+str 6 5 三峰奈緒
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 5 4 シナリオ協力
+str 6 5 西崎圭一
+str 5 6 たいらひとし
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 6 4 メイン原画
+str 6 5 輪月伽吉巳
+str 4 6 きゃろらいんようこ
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 6 3 サブ原画
+str 6 4 たいらひとし
+str 6 5 宮田めぐむ
+str 3 6 ＭＥＲＣＹ　ＲＡＢＢＩＴ
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 6 3 ＣＧワーク
+str 6 4 宮田めぐむ
+str 6 5 ししまる
+str 6 6 木本らい
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 6 3 ＣＧワーク
+str 6 4 あけこ
+str 6 5 平野麻琴
+str 6 6 ＲＹＯ
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 6 3 ＣＧワーク
+str 6 4 魔世ねーず
+str 6 5 ㈲すたじおＯＸ
+str 6 6 ㈲シーライオン
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 4 4 システムプログラム
+str 6 5 猿田出穂
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 4 3 シナリオプログラム
+str 6 4 島根舞人
+str 2 5 シナリオプログラムサポート
+str 4 6 ヘルパーＴＯＳＨＩ
+fontIn
+wait 120
+fontOut
+strCls
+wait 60
+
+fontCol 3
+str 7 4 音楽
+str 6 5 ＨｕＭＩ
+fontIn
+wait 120
+fontOut
+strCls
+
+# 曲とタイミングを合わせる
+waitBgm 1665000
+
+# スローブラックイン＋ファア・ナイン＋アウト
+envFade 8
+effect 36
+set stl13 3
+effect 37
+envFade 1
+
+wait 200
+
+#ラストメッセージ
+envFade 8
+effect 36
+envFade 1
+clear 7
+set end_t 3
+effect 43
+wait 60
+
+# い
+blend 39 51 14 11
+# つ
+blend 54 52 15 10
+# の
+blend 70 50 13 13
+# 日
+blend 87 49 11 15
+# に
+blend 100 49 14 15
+# か
+blend 116 49 14 14
+# き
+blend 139 48 11 16
+# っ
+blend 154 54 12 9
+# と
+blend 169 48 11 16
+# 、
+blend 183 57 7 7
+
+wait 30
+
+# 僕
+blend 74 63 17 17
+# 達
+blend 90 63 16 17
+# は
+blend 106 64 14 14
+# そ
+blend 122 63 12 16
+# こ
+blend 138 65 11 13
+# に
+blend 152 64 14 14
+
+wait 30
+
+# た
+blend 45 80 13 15
+# ど
+blend 60 80 14 15
+# り
+blend 77 79 9 18
+# つ
+blend 90 83 15 11
+# け
+blend 106 80 14 16
+# る
+blend 122 80 12 15
+# だ
+blend 136 80 14 15
+# ろ
+blend 152 80 13 15
+# う
+blend 170 80 9 17
+# 。
+blend 181 90 7 7
+
+wait 600
+
+envFade 8
+effect 36
+clear 7
+effect 37
+envFade 1
+
+envLoad
+
+
+# タイトルへ
+end

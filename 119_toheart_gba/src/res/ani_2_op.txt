@@ -1,0 +1,379 @@
+# オープニング
+
+#---------------------------------------
+# 前処理
+bgmStop
+strCls
+wait 30
+
+bgm 1 0
+skip
+
+#---------------------------------------
+# 桜エフェクト
+effect1 23
+
+# 写真1
+bgV 240
+effect2 1
+wait 60
+
+bgS 49
+effect2 2
+wait 60
+
+#---------------------------------------
+# 写真2
+bgV 241
+effect2 2
+wait 60
+
+bgS 49
+effect2 2
+wait 60
+
+#---------------------------------------
+# 写真3
+bgV 242
+effect2 2
+wait 60
+
+bgS 49
+effect2 2
+wait 60
+
+#---------------------------------------
+# 写真4
+bgV 243
+effect2 2
+wait 60
+
+# フェード黒イン
+effect1 30
+bgS 254
+wait 60
+
+# フェード白イン
+# fill 白
+effect1 29
+bgS 254
+wait 30
+
+# 上→下スクロール＋白フェードアウト
+effect2 21
+str 0 1 「Ｂｒａｎｄ　Ｎｅｗ　Ｈｅａｒｔ」
+str 5 3 作詞：ＮＥＫＯ
+str 4 4 作編曲：中上　和英
+str 4 5 ギター：福田　紳吾
+str 3 6 エンジニア：有村　健一
+str 5 7 歌：あっこ
+effect2 22
+wait 60
+
+# タイトル画面
+bgV 245
+effect2 2
+
+# 桜降りはじめる
+effect1 25
+waitBgm 48000
+
+# フェード黒イン
+effect1 30
+bgS 254
+wait 60
+
+#---------------------------------------
+# 校門ワイプ
+bgS 35
+effect2 7
+wait 30
+
+# あかり
+chr 385 1
+effect2 2
+wait 20
+
+chr 386 1
+effect2 2
+wait 20
+
+chr 389 1
+effect2 2
+wait 20
+
+# フェード黒イン
+effect1 7
+bgS 254
+chr 65535 1
+wait 30
+
+#---------------------------------------
+# 渡り廊下ワイプ
+bgS 9
+effect2 7
+wait 30
+
+# 先輩
+chr 514 0
+effect2 2
+wait 20
+
+chr 516 0
+effect2 2
+wait 20
+
+chr 515 0
+effect2 2
+wait 20
+
+# フェード黒イン
+effect1 7
+bgS 254
+chr 65535 0
+wait 30
+
+#---------------------------------------
+# 屋上ワイプ
+bgS 15
+effect2 7
+wait 30
+
+# 委員長
+chr 769 1
+effect2 2
+wait 20
+
+chr 771 1
+effect2 2
+wait 20
+
+chr 770 1
+effect2 2
+wait 20
+
+# フェード黒イン
+effect1 7
+bgS 254
+chr 65535 1
+wait 30
+
+#---------------------------------------
+# 坂道ワイプ
+bgS 21
+effect2 7
+wait 30
+
+# 志保
+chr 1026 0
+effect2 2
+wait 20
+
+chr 1027 0
+effect2 2
+wait 20
+
+chr 1025 0
+effect2 2
+wait 20
+
+# フェード黒イン
+effect1 7
+bgS 254
+chr 65535 0
+wait 30
+
+#---------------------------------------
+# 神社ワイプ
+bgS 29
+effect2 7
+wait 30
+
+# 葵
+chr 1281 1
+effect2 2
+wait 20
+
+chr 1288 1
+effect2 2
+wait 20
+
+chr 1292 1
+effect2 2
+wait 20
+
+# フェード黒イン
+effect1 7
+bgS 254
+chr 65535 1
+wait 30
+
+#---------------------------------------
+# 図書室ワイプ
+bgS 10
+effect2 7
+wait 30
+
+# マルチ
+chr 1540 0
+effect2 2
+wait 20
+
+chr 1542 0
+effect2 2
+wait 20
+
+chr 1538 0
+effect2 2
+wait 20
+
+# フェード黒イン
+effect1 7
+bgS 254
+chr 65535 0
+wait 30
+
+#---------------------------------------
+# 公園ワイプ
+bgS 26
+effect2 7
+wait 30
+
+# 琴音
+chr 1793 1
+effect2 2
+wait 20
+
+chr 1794 1
+effect2 2
+wait 20
+
+chr 1798 1
+effect2 2
+wait 20
+
+# フェード黒イン
+effect1 7
+bgS 254
+chr 65535 1
+wait 30
+
+#---------------------------------------
+# 中庭ワイプ
+bgS 14
+effect2 7
+wait 30
+
+# レミィ
+chr 2049 0
+effect2 2
+wait 20
+
+chr 2050 0
+effect2 2
+wait 20
+
+chr 2051 0
+effect2 2
+wait 20
+
+# フェード黒イン
+effect1 7
+bgS 254
+chr 65535 0
+wait 30
+
+#---------------------------------------
+# V41
+bgV 65
+effect2 7
+wait 90
+
+# 黒ワイプ
+effect1 7
+bgS 254
+wait 60
+
+# V31
+bgV 49
+effect2 7
+wait 90
+
+# 黒ワイプ
+effect1 7
+bgS 254
+wait 60
+
+# V70
+bgV 112
+effect2 7
+wait 90
+
+# 黒ワイプ
+effect1 7
+bgS 254
+wait 60
+
+# V50
+bgV 80
+effect2 7
+wait 90
+
+# 黒ワイプ
+effect1 7
+bgS 254
+wait 60
+
+# V80
+bgV 128
+effect2 7
+wait 90
+
+# 黒ワイプ
+effect1 7
+bgS 254
+wait 60
+
+# V20
+bgV 32
+effect2 7
+wait 90
+
+# 黒ワイプ
+effect1 7
+bgS 254
+wait 60
+
+# V12
+bgV 18
+effect2 7
+wait 90
+
+# フェード白イン
+# fill 白
+effect1 29
+bgS 254
+wait 90
+
+#---------------------------------------
+# フェード白アウト
+# 桜エフェクト
+bgV 245
+effect1 24
+effect2 16
+wait 480
+
+#スキップポイント
+skipMark
+bgmStop
+
+# フェード白イン
+# fill 白
+effect1 29
+bgS 254
+wait 60
+
+bgm 4 1
+sprMode 0
+
+end 0

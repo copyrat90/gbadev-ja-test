@@ -1,0 +1,269 @@
+# エンディング
+
+
+bgm 33 0
+wait 400
+strCls
+skip
+wait 800
+
+#---------------------------------------
+effect2 17
+wait 20
+str 7 3 企　画
+str 6 5 高橋　龍也
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 31
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 7 2 脚　本
+str 6 4 高橋　龍也
+str 6 5 青　紫
+str 6 6 葵　もりふみ
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 8
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 7 2 原　画
+str 6 4 水無月　徹
+str 6 5 ラー・ＹＯＵ
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 9
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 6 1 シーン構成
+str 6 3 高橋　龍也
+str 6 4 水無月　徹
+str 6 5 亜絵理
+str 6 6 ラー・ＹＯＵ
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 10
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 6 3 プログラム
+str 2 5 Ｈａｊｉｍｅ　Ｎｉｎｏｍａｅ
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 11
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 6 2 グラフィクス
+str 6 4 ＫＥＮＫＥＮ
+str 6 5 生波夢
+str 6 6 鳥野　正信
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 12
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 6 2 グラフィクス
+str 6 4 ねのつきゆきしろ
+str 6 5 ろみゅ
+str 6 6 ヴィーナス
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 13
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 6 2 グラフィクス
+str 6 4 ＤＯＺＡ
+str 6 5 親父
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 14
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 5 3 背景グラフィクス
+str 6 5 鳥野　正信
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 15
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 7 2 音　楽
+str 6 4 下川　直哉
+str 6 5 中上　和英
+str 6 6 石川　真也
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 7
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 6 1 ＥＤソング
+str 5 3 作　詞：ＮＥＫＯ
+str 5 4 作編曲：下川直哉
+str 5 5 ギター：福原紳吾
+str 5 6 録　音：有村健一
+str 5 7 　歌　：あっこ
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 21
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 5 3 タイトルロゴ
+str 5 5 クラフトマン
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 32
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 4 3 ＴＥＳＴ　ＰＬＡＹ
+str 2 5 ＡＬＬ　ＬＥＡＦ　ＳＴＡＦＦ
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 60
+
+#---------------------------------------
+bgS 17
+effect2 16
+wait 60
+
+effect2 17
+wait 20
+str 7 3 開　発
+str 4 5 １９９７　ＬＥＡＦ
+wait 240
+
+effect1 16
+strCls
+bgS 254
+wait 120
+
+#---------------------------------------
+# リーフロゴ
+# 桜
+bgV 244
+effect1 24
+effect2 16
+wait 600
+
+#---------------------------------------
+
+#スキップポイント
+skipMark
+
+bgmStop
+
+# フェード黒イン
+effect1 30
+bgS 254
+wait 60
+
+sprMode 0
+
+end 0

@@ -1,0 +1,18 @@
+# タイトルのみ
+
+# フェードインアウト
+strCls
+bgmStop
+effect 36
+clear 7
+ssg 99
+effect 37
+
+
+# タイトル画面
+set titlep 1
+effect 37
+
+
+# 選択肢へ
+end
